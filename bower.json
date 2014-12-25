@@ -1,0 +1,33 @@
+{
+  "name": "srima",
+  "version": "1.0.0",
+  "homepage": "https://github.com/hschaeidt/srima",
+  "authors": [
+    "Hendrik Schaeidt <he.schaeidt@gmail.com>"
+  ],
+  "description": "Simple responsive image loader based on source maps",
+  "main": "dist/srima.min.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "responsive",
+    "images",
+    "image",
+    "img",
+    "loader",
+    "load",
+    "source",
+    "maps"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

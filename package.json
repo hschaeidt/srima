@@ -1,0 +1,33 @@
+{
+  "name": "srima",
+  "version": "1.0.0",
+  "description": "Simple responsive image loader based on source maps",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hschaeidt/srima.git"
+  },
+  "keywords": [
+    "responsive",
+    "images",
+    "image",
+    "img",
+    "loader",
+    "load",
+    "source",
+    "maps"
+  ],
+  "author": "Hendrik Schaeidt <he.schaeidt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hschaeidt/srima/issues"
+  },
+  "homepage": "https://github.com/hschaeidt/srima",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.7.0"
+  }
+}
