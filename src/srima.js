@@ -11,7 +11,7 @@
   }
 }(this, function (exports) {
   function sortNumber(a,b) {
-    return a - b;
+    return b - a;
   }
 
   var srima = {
@@ -92,7 +92,7 @@
       var closest = 0;
       for (var i in formats) {
         if (formats.hasOwnProperty(i)) {
-          if (formats[i] <= window.innerWidth) {
+          if (window.innerWidth <= formats[i]) {
             closest = formats[i];
           }
         }
